@@ -9,7 +9,7 @@ let idade = anoAtual - anoNascimento;
 if(anoNascimento > anoAtual) {
     console.log('Ano de nascimento inválido. Por favor, insira um ano válido.');
 }
-else if (conditions) {
+else if (anoNascimento < anoAtual) {
     console.log(`Você deve colocar ${idade} vela(s) no bolo.`);
     
 }else {
